@@ -26,7 +26,13 @@ const Project = () => {
   return (
     <Grid container spacing={2}>
       <Grid item xs={12}>
-        <Typography variant="h4" align="center" gutterBottom>
+        <Typography variant="h4" align="center" gutterBottom
+         sx={{
+              fontSize: 40,
+              color: '#962ac9',
+              fontWeight: 'bold',
+              marginTop: '1rem',
+             }}>
           Projects
         </Typography>
       </Grid>
