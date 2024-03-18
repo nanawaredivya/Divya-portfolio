@@ -54,7 +54,10 @@ const About = () => {
           >
             BEST SKILL ON
           </Typography>
-          <Grid container justifyContent="center" alignItems="center" spacing={2}>
+          <Grid container justifyContent="center" alignItems="center" spacing={2}
+          sx={{
+            marginBottom: '1.5rem'
+          }}>
             <Grid item xs={6} sm={3}>
               <Box
                 sx={{
