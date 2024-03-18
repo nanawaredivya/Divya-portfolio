@@ -16,8 +16,8 @@ const About = () => {
           sx={{
             fontSize: "2rem",
             color: "black",
-            marginTop: '2rem',
-            marginBottom: '0.5rem'
+            marginTop: '0.5rem',
+            marginBottom: '0.1rem'
           }}>
           Know Who &nbsp;
           <span
@@ -30,7 +30,6 @@ const About = () => {
         <Typography variant="body1" align="center"
           sx={{
             fontSize: "1.5rem",
-            marginBottom: '2rem',
           }}>
           Hi Everyone, I'm &nbsp;
           <span
@@ -44,14 +43,13 @@ const About = () => {
         </Typography>
       </Grid>
       <Grid item xs={6}>
-        <img src="/Assets/about.png" alt="Divya" className="image" height="80%" width="100%" />
+        <img src="/Assets/about.png" alt="Divya" className="image" height="60%" width="100%" />
       </Grid>
       <Grid item xs={12}>
         <Grid item xs={6}>
           <Typography align="center"
             sx={{
-              fontSize: "2rem",
-              marginBottom: '1rem'
+              fontSize: "1.5rem",
             }}
           >
             BEST SKILL ON

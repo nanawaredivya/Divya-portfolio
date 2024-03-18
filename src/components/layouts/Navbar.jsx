@@ -91,6 +91,18 @@ const Navbar = () => {
                   <ListItem
                     button
                     component={Link}
+                    to="/resume"
+                    onClick={() => {
+                      handleDrawerClose();
+                      handleLinkClick("/resume");
+                    }}
+                    className={activeLink === "/resume" ? "active" : ""}
+                  >
+                    <ListItemText>Resume</ListItemText>
+                  </ListItem>
+                  <ListItem
+                    button
+                    component={Link}
                     to="/contact"
                     onClick={() => {
                       handleDrawerClose();
@@ -169,6 +181,16 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("/project")}
               >
                 Projects
+              </Button>
+              <Button
+                component={Link}
+                to="/resume"
+                color="inherit"
+                sx={{ fontSize: "1rem", mr: 9 }}
+                className={activeLink === "/resume" ? "active" : ""}
+                onClick={() => handleLinkClick("/resume")}
+              >
+                Resume
               </Button>
               <Button
                 component={Link}
