@@ -19,7 +19,7 @@ const Contact = () => {
               color: '#962ac9',
               fontWeight: 'bold',
              }}>
-           Contact with me
+           Contact Me
          </Typography>
        </Grid>
       <Grid item xs={12} md={4}>

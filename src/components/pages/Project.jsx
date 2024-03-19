@@ -14,12 +14,12 @@ const projects = [
     repo: 'https://github.com/nanawaredivya',
     description: 'A blog website showcasing diverse topics, providing insightful articles and engaging content for readers. Explore a range of perspectives and ideas, offering a platform for sharing knowledge.',
   },
-  {
-    name: 'Project 3',
-    image: '/path/to/image3.jpg',
-    repo: 'https://github.com/nanawaredivya',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat vel velit nec feugiat.',
-  },
+  // {
+  //   name: 'Project 3',
+  //   image: '/path/to/image3.jpg',
+  //   repo: 'https://github.com/nanawaredivya',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat vel velit nec feugiat.',
+  // },
 ];
 
 const Project = () => {
