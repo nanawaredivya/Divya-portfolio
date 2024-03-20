@@ -27,18 +27,18 @@ const Project = () => {
     <Grid container spacing={2}>
       <Grid item xs={12}>
         <Typography variant="h4" align="center" gutterBottom
-         sx={{
-              fontSize: 40,
-              color: '#962ac9',
-              fontWeight: 'bold',
-              marginTop: '1rem',
-             }}>
+          sx={{
+            fontSize: 40,
+            color: '#962ac9',
+            fontWeight: 'bold',
+            marginTop: '1rem',
+          }}>
           Projects
         </Typography>
       </Grid>
       {projects.map((project, index) => (
         <Grid item xs={12} sm={6} md={4} key={index}>
-          <Card 
+          <Card
             sx={{
               marginBottom: '2rem',
               marginLeft: '1rem',
@@ -65,7 +65,7 @@ const Project = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div"
-                sx={{
+                  sx={{
                     margin: 1,
                     fontSize: '1rem',
                     color: '#962ac9'
