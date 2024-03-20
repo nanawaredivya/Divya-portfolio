@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Typography } from '@mui/material';
+import GetAppIcon from '@mui/icons-material/GetApp';
 
 const Resume = () => {
   const downloadResume = () => {
@@ -33,7 +34,9 @@ const Resume = () => {
             '&:hover': {
               backgroundColor: '#D35400 ',
             }
-          }}>
+          }}
+          startIcon={<GetAppIcon />}
+          >
           Download
         </Button>
       </div>
