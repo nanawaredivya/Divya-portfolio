@@ -55,9 +55,9 @@ const About = () => {
             BEST SKILL ON
           </Typography>
           <Grid container justifyContent="center" alignItems="center" spacing={2}
-          sx={{
-            marginBottom: '1.5rem'
-          }}>
+            sx={{
+              marginBottom: '1.5rem'
+            }}>
             <Grid item xs={6} sm={3}>
               <Box
                 sx={{
@@ -114,7 +114,7 @@ const About = () => {
                 }}
               >
                 <Typography align="center" variant="body2">
-                Redux
+                  Redux
                 </Typography>
               </Box>
             </Grid>
@@ -144,7 +144,7 @@ const About = () => {
                 }}
               >
                 <Typography align="center" variant="body2">
-                Material Ui
+                  Material Ui
                 </Typography>
               </Box>
             </Grid>
@@ -174,7 +174,7 @@ const About = () => {
                 }}
               >
                 <Typography align="center" variant="body2">
-                JavaScript
+                  JavaScript
                 </Typography>
               </Box>
             </Grid>
@@ -204,7 +204,7 @@ const About = () => {
                 }}
               >
                 <Typography align="center" variant="body2">
-                Github
+                  Github
                 </Typography>
               </Box>
             </Grid>
@@ -234,7 +234,7 @@ const About = () => {
                 }}
               >
                 <Typography align="center" variant="body2">
-                MySQL
+                  MySQL
                 </Typography>
               </Box>
             </Grid>
@@ -264,10 +264,10 @@ const About = () => {
                 }}
               >
                 <Typography align="center" variant="body2">
-                JSON
+                  JSON
                 </Typography>
               </Box>
-            </Grid> 
+            </Grid>
             <Grid item xs={6} sm={3}>
               <Box
                 sx={{
@@ -294,13 +294,13 @@ const About = () => {
                 }}
               >
                 <Typography align="center" variant="body2">
-                Bitbucket
+                  Bitbucket
                 </Typography>
               </Box>
             </Grid>
-            
-          
-            
+
+
+
           </Grid>
         </Grid>
         {/* <Grid item xs={6}>

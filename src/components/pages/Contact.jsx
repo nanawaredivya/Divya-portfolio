@@ -14,14 +14,14 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    addDoc(userCollection,{
-      name:name,
-      email:email,
-      phone:phone,
-      subject:subject,
-      message:message
+    addDoc(userCollection, {
+      name: name,
+      email: email,
+      phone: phone,
+      subject: subject,
+      message: message
     }).then(() => {
-      if(!alert('Message sent successfully!'))document.location= '/Home';
+      if (!alert('Message sent successfully!')) document.location = '/Home';
       setName('');
       setEmail('');
       setPhone('');

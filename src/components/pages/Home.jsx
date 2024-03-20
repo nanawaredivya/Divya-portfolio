@@ -56,23 +56,23 @@ const Home = () => {
             }}
           />
         </Typography>
-        <Typography variant="h3" align="center" 
-        sx={{ 
-          fontSize: '1rem', 
-          color: 'black',
-          fontFamily: "revert-layer", 
+        <Typography variant="h3" align="center"
+          sx={{
+            fontSize: '1rem',
+            color: 'black',
+            fontFamily: "revert-layer",
           }}>
           Know me better{' '}
           <IconButton component={Link} to="/about"
-          sx={{
-                fontSize: '2rem',
+            sx={{
+              fontSize: '2rem',
+              color: '#4caf50',
+              '&:hover': {
                 color: '#4caf50',
-                '&:hover': {
-                  color: '#4caf50', 
-                  backgroundColor: '#b7b7b7', 
-                  borderRadius: '50%',
-                },
-          }}
+                backgroundColor: '#b7b7b7',
+                borderRadius: '50%',
+              },
+            }}
           >
             <ArrowForwardIcon />
           </IconButton>
