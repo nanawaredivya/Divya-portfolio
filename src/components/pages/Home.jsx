@@ -33,7 +33,7 @@ const Home = () => {
           }}
         >
           I'M {'  '} &nbsp;
-          <span className="name" style={{ marginRight: '0.5rem', color: '#962ac9' }}>
+          <span className="name" style={{ marginRight: '0.5rem', color: '#D35400' }}>
             DIVYA NANAWARE
           </span>
         </Typography>
@@ -44,7 +44,7 @@ const Home = () => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            color: '#D35400',
+            color: '#962ac9',
           }}
         >
           <Typewriter
