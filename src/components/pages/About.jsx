@@ -34,7 +34,7 @@ const About = () => {
           Hi Everyone, I'm &nbsp;
           <span
             style={{
-              color: '#962ac9',
+              color: '#D35400',
               fontSize: 25
             }}>Divya Nanaware,</span> a React Front-End Web Developer. I specialize in creating engaging
           and user-friendly web experiences. With a passion for clean code and seamless user experiences,
