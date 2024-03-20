@@ -21,7 +21,7 @@ const Contact = () => {
       subject: subject,
       message: message
     }).then(() => {
-      alert('Message sent successfully!')
+      if(!alert('Message sent successfully!'))document.location='./Home'
       setName('');
       setEmail('');
       setPhone('');
