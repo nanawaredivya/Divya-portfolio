@@ -21,7 +21,7 @@ const Contact = () => {
       subject: subject,
       message: message
     }).then(() => {
-      if (!alert('Message sent successfully!')) document.location = '/Home';
+      alert('Message sent successfully!')
       setName('');
       setEmail('');
       setPhone('');
@@ -32,8 +32,6 @@ const Contact = () => {
       alert('Error sending message. Please try again later.');
     });
   };
-  //   console.log('Form submitted');
-  // };
 
   return (
     <Grid container spacing={2}
@@ -150,7 +148,7 @@ const Contact = () => {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type="submit" variant="contained" color="primary" fullWidth sx={{ backgroundColor: "gray" }}
+                  <Button type="submit" variant="contained" color="primary" fullWidth sx={{ backgroundColor: "gray"}}
                     onClick={handleSubmit}>
                     Submit
                   </Button>
