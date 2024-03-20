@@ -44,7 +44,7 @@ const Home = () => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            color: '#962ac9',
+            color: '#D35400',
           }}
         >
           <Typewriter

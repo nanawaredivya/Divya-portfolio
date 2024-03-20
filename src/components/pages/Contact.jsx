@@ -42,7 +42,7 @@ const Contact = () => {
         <Typography variant="h4" align="center" gutterBottom
           sx={{
             fontSize: 40,
-            color: '#962ac9',
+            color: '#D35400',
             fontWeight: 'bold',
           }}>
           Contact Me
@@ -58,7 +58,8 @@ const Contact = () => {
           paddingInlineEnd: '2rem',
           paddingInlineStart: '2rem',
           paddingBlock: '1.5rem',
-          bgcolor: '#E5E4E2',
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)'
+          // bgcolor: '#E5E4E2',
         }}>
           <CardMedia
             component="img"
@@ -78,7 +79,8 @@ const Contact = () => {
               As a React frontend developer, I specialize in creating engaging user interfaces and interactive web experiences.             </Typography>
             <Typography variant="body1" gutterBottom
               sx={{
-                marginBottom: '1rem'
+                marginBottom: '1rem',
+                color: "#962ac9",
               }}>
               REACT-FRONTEND DEVELOPER
             </Typography>
@@ -95,7 +97,7 @@ const Contact = () => {
 
       {/* Right Section */}
       <Grid item xs={12} md={7}>
-        <Card sx={{ padding: 2, bgcolor: '#E5E4E2', }}>
+        <Card sx={{ padding: 2, boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)' }}>
           <CardContent>
 
             <form onSubmit={handleSubmit}>
@@ -148,7 +150,14 @@ const Contact = () => {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type="submit" variant="contained" color="primary" fullWidth sx={{ backgroundColor: "gray"}}
+                  <Button type="submit" variant="contained" fullWidth
+                    sx={{
+                      color: 'black',
+                      backgroundColor: '#DC7633',
+                      '&:hover': {
+                        backgroundColor: '#D35400 ',
+                      },
+                    }}
                     onClick={handleSubmit}>
                     Submit
                   </Button>

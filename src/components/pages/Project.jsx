@@ -29,7 +29,7 @@ const Project = () => {
         <Typography variant="h4" align="center" gutterBottom
           sx={{
             fontSize: 40,
-            color: '#962ac9',
+            color: '#D35400',
             fontWeight: 'bold',
             marginTop: '1rem',
           }}>

@@ -8,7 +8,7 @@ const Resume = () => {
     link.download = 'resume.doc';
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link); 
+    document.body.removeChild(link);
   };
 
   return (
@@ -21,13 +21,19 @@ const Resume = () => {
         backgroundColor: '#e8e8e8',
       }}>
       <div style={{ textAlign: 'center', padding: '20px' }}>
-        <Typography variant="h6" gutterBottom>
+        <Typography variant="h4" gutterBottom>
           Download Resume
         </Typography>
         <Typography variant="body1" gutterBottom>
           Click the button below to download my resume in DOC format.
         </Typography>
-        <Button variant="contained" onClick={downloadResume}>
+        <Button variant="contained" onClick={downloadResume}
+          sx={{
+            backgroundColor: "#D35400",
+            '&:hover': {
+              backgroundColor: '#D35400 ',
+            }
+          }}>
           Download
         </Button>
       </div>

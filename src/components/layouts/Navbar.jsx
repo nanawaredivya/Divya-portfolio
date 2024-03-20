@@ -143,7 +143,7 @@ const Navbar = () => {
                       marginLeft: 2,
                       fontSize: "2rem",
                       fontFamily: "Georgia, serif",
-                      color: "#962ac9",
+                      color: "#D35400",
                       fontWeight: "bold"
                     }}
                   >
